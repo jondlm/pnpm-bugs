@@ -79,6 +79,7 @@ index 2f35b23..08f924e 100644
 +    "@pg1/copper-cable": "^1.1.0"
    }
  }
+
 ```
 3. run `pnpm install`
 4. observe that `@pg1/copper-ore@1.0.0` disappears from the lockfile
