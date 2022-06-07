@@ -1,4 +1,14 @@
-# Pnpm bug repros
+# Summary (friendly bug name: pocket-restrain)
 
-This is a small repo with git branches for various bug repros with pnpm. Each
-repro has a random name assigned to it for my own mental bookeeping.
+Pnpm incorrectly updates transitive across workspace packages dependences > 2
+layers deep ignoring previous locked versions.
+
+Package layout before:
+```mermaid
+
+```
+
+# Repro
+
+1. 
+

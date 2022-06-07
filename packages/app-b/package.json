@@ -1,0 +1,6 @@
+{
+  "name": "app-b",
+  "dependencies": {
+    "@pg1/copper-cable": "^1.0.0"
+  }
+}
