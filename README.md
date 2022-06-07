@@ -65,7 +65,7 @@ graph LR
 # Repro
 
 1. run `pnpm install`
-2. apply this patch:
+2. apply this patch (e.g. pipe to `git apply`):
 ```
 diff --git a/packages/app-b/package.json b/packages/app-b/package.json
 index 2f35b23..08f924e 100644
