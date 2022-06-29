@@ -9,7 +9,12 @@ importers:
       '@pg1/copper-cable': 1.0.0
 
   packages/app-with-changes:
-    specifiers: {}
+    specifiers:
+      '@pg1/copper-cable': 1.0.0
+      '@pg1/copper-ore': 1.1.0
+    dependencies:
+      '@pg1/copper-cable': 1.0.0
+      '@pg1/copper-ore': 1.1.0
 
 packages:
 
@@ -19,12 +24,12 @@ packages:
       '@pg1/copper-plate': 1.0.0
     dev: false
 
-  /@pg1/copper-ore/1.0.0:
-    resolution: {integrity: sha512-nD1Ni4OLv51dfUEyxGg2feRdNrTShtVtj+LMBMW5UOqcn94kVVED2T9+Gr66LjNEfcREEpvhgpP0Cu9OQE8GYw==}
+  /@pg1/copper-ore/1.1.0:
+    resolution: {integrity: sha512-m58Vuv2360b6CEz/LkNHT2BmN/b2oElHVUDaa7WPYp+NraZ624V3MNPszaxjm4VQPUs662TDvAu4UMS0tz7HGw==}
     dev: false
 
   /@pg1/copper-plate/1.0.0:
     resolution: {integrity: sha512-kcTsuGBhSeZRXuqxAw5DahCO4p/ykPFq46rtJEAATy/gH1jqWqlPd6NwHXQgPum3HAV7vOW0p4hWMC9YNDt27g==}
     dependencies:
-      '@pg1/copper-ore': 1.0.0
+      '@pg1/copper-ore': 1.1.0
     dev: false

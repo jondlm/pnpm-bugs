@@ -1,5 +1,7 @@
 {
   "name": "app-with-changes",
   "dependencies": {
+    "@pg1/copper-ore": "1.1.0",
+    "@pg1/copper-cable": "1.0.0"
   }
 }
