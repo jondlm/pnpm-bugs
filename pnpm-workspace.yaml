@@ -1,0 +1,3 @@
+packages:
+  - 'packages/app-should-not-change'
+  - 'packages/app-with-changes'

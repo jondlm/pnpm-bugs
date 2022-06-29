@@ -1,0 +1,30 @@
+lockfileVersion: 5.4
+
+importers:
+
+  packages/app-should-not-change:
+    specifiers:
+      '@pg1/copper-cable': 1.0.0
+    dependencies:
+      '@pg1/copper-cable': 1.0.0
+
+  packages/app-with-changes:
+    specifiers: {}
+
+packages:
+
+  /@pg1/copper-cable/1.0.0:
+    resolution: {integrity: sha512-hxmgSZAYpqLvwipPIWVyUMTetMOnSiVIH8WPMFX42M8Ucu3nKWYYYW4olorF8XwO3CPdeUoQ2ZEWfgeza3z9Fw==}
+    dependencies:
+      '@pg1/copper-plate': 1.0.0
+    dev: false
+
+  /@pg1/copper-ore/1.0.0:
+    resolution: {integrity: sha512-nD1Ni4OLv51dfUEyxGg2feRdNrTShtVtj+LMBMW5UOqcn94kVVED2T9+Gr66LjNEfcREEpvhgpP0Cu9OQE8GYw==}
+    dev: false
+
+  /@pg1/copper-plate/1.0.0:
+    resolution: {integrity: sha512-kcTsuGBhSeZRXuqxAw5DahCO4p/ykPFq46rtJEAATy/gH1jqWqlPd6NwHXQgPum3HAV7vOW0p4hWMC9YNDt27g==}
+    dependencies:
+      '@pg1/copper-ore': 1.0.0
+    dev: false
